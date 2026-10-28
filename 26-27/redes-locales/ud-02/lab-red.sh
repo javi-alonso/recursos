@@ -6,7 +6,7 @@
 #     servidor en 10.66.0.2, limitada a 100 Mb/s como un enlace Fast Ethernet;
 #     el tráfico de esa red no sale del contenedor
 #   - deja las órdenes red-info y averia
-# Uso: curl -fsSL <url>/lab-red.sh | bash
+# Uso: wget -qO- <url>/lab-red.sh | bash   (la plantilla 101 no trae curl)
 
 set -e
 
